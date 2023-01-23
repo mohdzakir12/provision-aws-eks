@@ -1,2 +1,2 @@
-# provision-aws-eksCluster
+# provision-aws-eks
 Create AWS EKS Cluster
