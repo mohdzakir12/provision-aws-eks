@@ -11,7 +11,8 @@ provider "aws" {
 # }
 
 module "eks" {
-  source  = "github.com/synectiks-sddc/terraform-aws-customEKS.git"
+#   source  = "github.com/synectiks-sddc/terraform-aws-customEKS.git"
+  source = "github.com/mohdzakir12/terraform-aws-customEKS.git"
   #source   = "/mnt/d/mycode/terraform-aws-customEKS" #"/opt/mycode/terraform-aws-eks"
   #version = "0.0.1"
   # insert the 1 required variable here
